@@ -45,9 +45,9 @@ def get_bool_from_env(name, default_value):
     return default_value
 
 
-DEBUG = get_bool_from_env("DEBUG", False)
+DEBUG = get_bool_from_env("DEBUG", True)
 
-#ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'saleor-production.up.railway.app']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'saleor-production.up.railway.app']
 ALLOWED_CLIENT_HOSTS = "saleor-production.up.railway.app"
 
 SITE_ID = 1
