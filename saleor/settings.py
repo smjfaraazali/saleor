@@ -50,7 +50,7 @@ DEBUG = get_bool_from_env("DEBUG", True)
 ALLOWED_HOSTS = "saleor-production.up.railway.app"
 ALLOWED_CLIENT_HOSTS = "saleor-production.up.railway.app"
 
-SECRET_KEY="secret"
+SECRET_KEY = "secret"
 
 SITE_ID = 1
 
